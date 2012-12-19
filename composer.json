@@ -2,9 +2,17 @@
     "name": "barberry/image",
     "version": "0.2",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bobagold/barberry-plugin-webcapture.git"
+        }
+    ],
     "require": {
         "barberry/barberry": "*",
-        "barberry/plugin-imagemagick": "*"
+        "barberry/plugin-imagemagick": "*",
+        "barberry/plugin-ffmpeg": "*",
+        "barberry/plugin-webcapture": "*"
     },
     "minimum-stability": "dev",
     "authors": [
